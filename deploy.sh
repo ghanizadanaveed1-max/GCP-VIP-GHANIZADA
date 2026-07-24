@@ -53,7 +53,7 @@ else
 fi
 
 read -p "Enter service name [default: hasib-trojan]: " SERVICE_NAME
-SERVICE_NAME=${SERVICE_NAME:-hasib-trojan}
+SERVICE_NAME=${SERVICE_NAME:-naveed-trojan}
 
 echo "[1] 1 vCPU, 1Gi RAM"
 echo "[2] 1 vCPU, 2Gi RAM"
@@ -98,8 +98,8 @@ SERVICE_URL=$(gcloud run services describe "$SERVICE_NAME" \
 
 HOST=$(echo "$SERVICE_URL" | sed 's|https://||')
 
-PASSWORD="HASIBHOSSENTECH"
-WS_PATH="/@bouchor"
+PASSWORD="GHANIZADA"
+WS_PATH="/@ghanizada"
 ENCODED_PATH="%40bouchor"
 SNI="firebase-settings.crashlytics.com"
 
