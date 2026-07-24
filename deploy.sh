@@ -53,7 +53,7 @@ else
 fi
 
 read -p "Enter service name [default: hasib-trojan]: " SERVICE_NAME
-SERVICE_NAME=${SERVICE_NAME:-naveed-trojan}
+SERVICE_NAME=${SERVICE_NAME:-hasib-trojan}
 
 echo "[1] 1 vCPU, 1Gi RAM"
 echo "[2] 1 vCPU, 2Gi RAM"
